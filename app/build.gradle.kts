@@ -33,7 +33,7 @@ android {
         jvmTarget = "1.8"
     }
 
-    buildTypes {
+        buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
